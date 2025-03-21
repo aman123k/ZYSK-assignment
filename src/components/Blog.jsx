@@ -5,20 +5,20 @@ import { blogData } from "../data/export";
 function Blog() {
   return (
     <section
-      className=" px-[64px] max-[650px]:px-[28px] font-inter
+      className=" px-[64px] max-[650px]:px-[28px] font-inter dark:bg-[#121212]
     min-[2000px]:ml-[50%] min-[2000px]:translate-x-[-50%] max-[650px]:gap-[40px]"
     >
-      <section className=" flex flex-col gap-16 max-[650px]:gap-8  py-16  max-[650px]:py-[30px]  border-t border-[#EAECF0]">
+      <section className=" flex flex-col gap-16 max-[650px]:gap-8  py-16  max-[650px]:py-[30px]  border-t border-[#EAECF0] dark:border-[#333333]">
         {/* blog header */}
         <div className=" flex justify-between items-start font-inter">
           <div className="flex flex-col gap-[20px] max-[650px]:gap-[14px]">
             <span className=" text-[#E63F3A] font-semibold text-[16px] leading-[24px]">
               Our blog
             </span>
-            <h2 className=" text-[#101828] text-[36px] font-semibold leading-[44px] max-[650px]:text-[30px]">
+            <h2 className=" text-[#101828] text-[36px] font-semibold leading-[44px] max-[650px]:text-[30px] dark:text-white">
               Lastest blog posts
             </h2>
-            <p className=" text-[#475467] text-[18px] leading-[20px] font-light max-[650px]:text-[14px] max-[650px]:leading-normal">
+            <p className=" text-[#475467] text-[18px] leading-[20px] font-light max-[650px]:text-[14px] max-[650px]:leading-normal dark:text-white">
               Tool and strategies modern teams need to help their companies
               grow.
             </p>
@@ -46,13 +46,13 @@ function Blog() {
                 <div className=" flex justify-between items-center">
                   <h3
                     className=" text-[#101828] font-semibold text-[24px] leading-[32px] max-[1050px]:text-[20px] max-[950px]:text-[24px] 
-                  max-[850px]:text-[20px]"
+                  max-[850px]:text-[20px] dark:text-white"
                   >
                     {data.title}
                   </h3>
                   <FiArrowUpRight color="#101828" className=" text-2xl" />
                 </div>
-                <p className=" text-[#475467] text-[16px] leading-[24px] tracking-wide py-2 max-[650px]:text-[14px] max-[650px]:py-0 max-[650px]:pb-2">
+                <p className="dark:text-white text-[#475467] text-[16px] leading-[24px] tracking-wide py-2 max-[650px]:text-[14px] max-[650px]:py-0 max-[650px]:pb-2">
                   {data.des}
                 </p>
                 <div className=" flex items-center gap-[12px]">
@@ -62,10 +62,10 @@ function Blog() {
                     className=" w-[40px] h-[40px] rounded-full"
                   />
                   <div>
-                    <h6 className=" text-[#101828] text-[14px] leading-[20px] font-semibold">
+                    <h6 className="dark:text-white text-[#101828] text-[14px] leading-[20px] font-semibold">
                       {data.name}
                     </h6>
-                    <span className=" text-[#475467] text-[14px] leading-[20px]">
+                    <span className="dark:text-white text-[#475467] text-[14px] leading-[20px]">
                       {data.date}
                     </span>
                   </div>

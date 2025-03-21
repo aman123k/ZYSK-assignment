@@ -1,3 +1,5 @@
+import React from "react";
+import { ThemeProvider } from "./context/ThemeContext.js";
 import Blog from "./components/Blog";
 import Faq from "./components/Faq";
 import FeatureCard from "./components/FeatureCard";
@@ -9,7 +11,7 @@ import Trial from "./components/Trial";
 
 function App() {
   return (
-    <div className="App">
+    <ThemeProvider>
       <Header />
       <Hero />
       <FeatureCard />
@@ -18,7 +20,7 @@ function App() {
       <Blog />
       <Trial />
       <Footer />
-    </div>
+    </ThemeProvider>
   );
 }
 

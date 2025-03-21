@@ -2,12 +2,12 @@ import React from "react";
 
 function Trial() {
   return (
-    <section className="bg-[#F9FAFB] flex flex-col justify-center items-center py-24 max-[650px]:py-12 max-[650px]:px-[28px]">
+    <section className="bg-[#F9FAFB] flex flex-col justify-center  dark:bg-[#333333] items-center py-24 max-[650px]:py-12 max-[650px]:px-[28px]">
       <section className=" text-center flex flex-col gap-[32px]">
-        <h1 className=" text-[#101828] text-[36px] font-inter font-semibold max-[650px]:text-[30px]">
+        <h1 className=" text-[#101828] text-[36px] font-inter dark:text-white font-semibold max-[650px]:text-[30px]">
           Start your free trial
         </h1>
-        <p className=" text-[#475467] font-inter text-[20px] max-[650px]:text-[18px]">
+        <p className=" text-[#475467] font-inter dark:text-white text-[20px] max-[650px]:text-[18px]">
           Join over 4,000+ startups already growing with Untitled.
         </p>
         <div className=" flex gap-4 m-auto max-[650px]:flex-col-reverse max-[650px]:w-full">
