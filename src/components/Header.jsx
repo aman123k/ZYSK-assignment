@@ -21,7 +21,7 @@ function Header() {
           <img src={logo} alt="" />
           <div
             className={`max-[850px]:fixed max-[850px]:bg-[#ffff] max-[850px]:w-[350px] max-[650px]:w-[250px] duration-700 ease-in-out
-                 max-[850px]:top-0 max-[850px]:h-[100dvh] max-[850px]:left-0 max-[850px]:z-10 max-[850px]:drop-shadow-xl dark:bg-[#333333]
+                 max-[850px]:top-0 max-[850px]:h-[100dvh] max-[850px]:left-0 max-[850px]:z-10 max-[850px]:drop-shadow-xl max-[650px]:dark:bg-[#333333]
                 ${
                   openMenu ? "translate-x-0" : "max-[850px]:translate-x-[-200%]"
                 }`}
@@ -40,12 +40,12 @@ function Header() {
             >
               <li
                 className="leading-[24px] text-[#475467] font-semibold cursor-pointer max-[850px]:w-full max-[850px]:px-10 max-[850px]:py-3 
-                max-[850px]:hover:bg-gray-100 dark:hover:bg-black max-[850px]:rounded-lg max-[650px]:px-5 dark:text-white"
+                max-[850px]:hover:bg-gray-100 max-[650px]:dark:hover:bg-black max-[850px]:rounded-lg max-[650px]:px-5 dark:text-white"
               >
                 Home
               </li>
               <li
-                className="leading-[24px] text-[#475467] dark:hover:bg-black  font-semibold cursor-pointer max-[850px]:w-full max-[850px]:px-10 max-[850px]:py-3 
+                className="leading-[24px] text-[#475467] max-[650px]:dark:hover:bg-black  font-semibold cursor-pointer max-[850px]:w-full max-[850px]:px-10 max-[850px]:py-3 
                 max-[850px]:hover:bg-gray-100  max-[850px]:rounded-lg flex items-center gap-3 max-[650px]:px-5 dark:text-white"
               >
                 <span>Products</span>
@@ -55,7 +55,7 @@ function Header() {
                 />
               </li>
               <li
-                className="leading-[24px] text-[#475467] dark:hover:bg-black  font-semibold cursor-pointer max-[850px]:w-full max-[850px]:px-10 max-[850px]:py-3 
+                className="leading-[24px] text-[#475467] max-[650px]:max-[650px]:dark:hover:bg-black  font-semibold cursor-pointer max-[850px]:w-full max-[850px]:px-10 max-[850px]:py-3 
                 max-[850px]:hover:bg-gray-100 max-[850px]:rounded-lg flex items-center gap-3 max-[650px]:px-5 dark:text-white"
               >
                 <span>Resources</span>
@@ -65,7 +65,7 @@ function Header() {
                 />
               </li>
               <li
-                className="leading-[24px] text-[#475467] dark:hover:bg-black  font-semibold cursor-pointer max-[850px]:w-full max-[850px]:px-10 max-[850px]:py-3 
+                className="leading-[24px] text-[#475467] max-[650px]:dark:hover:bg-black  font-semibold cursor-pointer max-[850px]:w-full max-[850px]:px-10 max-[850px]:py-3 
                 max-[850px]:hover:bg-gray-100 max-[850px]:rounded-lg max-[650px]:px-5 dark:text-white"
               >
                 Pricing
